@@ -1,0 +1,23 @@
+#App {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+#Board {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#Piece {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 48px;
+  height: 64px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
